@@ -1,0 +1,200 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #15bd3d;
+    color: #649f89;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.hero {
+    background-image: url('pet-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    display: inline-block;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-buttons .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+}
+
+.btn-secondary {
+    background-color: #2196F3;
+}
+
+#features {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+#features h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #4CAF50;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.feature {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.feature h3 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+#testimonials {
+    padding: 0px;
+    margin: 0px;
+    background-color: #d3eade;
+}
+
+#testimonials h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #4CAF50;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.testimonial {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.testimonial h4 {
+    color: #4CAF50;
+    margin-top: 15px;
+}
+
+#signup {
+    padding: 60px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#signup h2 {
+    font-size: 36px;
+    color: #4CAF50;
+}
+
+#signup form {
+    margin-top: 40px;
+}
+
+#signup input, #signup select {
+    width: 60%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#signup button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(67, 75, 73);
+}
+
+footer .social-links {
+    margin-bottom: 10px;
+}
+
+.testimonial-list {
+    margin: 10px;
+    padding: 10px;
+    background: url(foto4.png);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}

@@ -1,0 +1,28 @@
+h1 {
+    color:black
+}
+h2 
+{
+    color:rgb(38, 37, 37)
+}
+h3 {
+    color:rgb(61, 61, 61)
+}
+h4 {
+    color:rgb(79, 79, 79)
+}
+img {
+    border-radius: 5px;
+}
+body {
+    border: 100px solid rgb(50, 50, 50);
+}
+img {
+    image-orientation: flip;
+}
+h1 {
+    text-align:right;
+}
+body {
+    border: 0cap red;
+}
